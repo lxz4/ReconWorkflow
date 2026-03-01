@@ -1,0 +1,9 @@
+# Vulnerability Scan Configuration
+
+# Example configuration for a vulnerability scanning tool
+scan:
+  enabled: true
+  target: "http://example.com"
+  options:
+    - "-o output.txt"
+    - "-t 10"
