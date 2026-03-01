@@ -1,0 +1,10 @@
+# Subdomain Monitor Configuration
+# This YAML file configures the settings for monitoring subdomains.
+
+subdomains:
+  - api.example.com
+  - www.example.com
+  - mail.example.com
+
+monitor_interval: "5m"
+alert_on_changes: true
